@@ -48,9 +48,8 @@
 }
 
 .margin{
-    width: 80%;
+    width: 70%;
     margin: auto;
-    display: flex;
 }
 
 /* #region header */
@@ -61,7 +60,7 @@
     display: flex;
     justify-content: center;
     padding: 1rem 0;
-    span:nth-of-type(1) {flex-grow: 1;}
+    span:nth-of-type(1) {flex-grow: 1.5;}
     span:nth-of-type(2) {flex-grow: 2;}
     }
     .style{
@@ -92,7 +91,8 @@
 
 .space-card{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 1rem;
     margin-top: 3rem;
     margin-bottom: 5rem;
 }
@@ -196,6 +196,23 @@
 
 /* #region footer */
 .srl{
-    min-height: 2rem;
+    min-height: 1rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+.boolando-srl{
+    padding: 2rem 0;
+}
+
+.social{
+    display: flex;
+    padding-bottom: 0.5rem;
+}
+
+i{
+    margin: 0 0.2rem;
 }
 /* #endregion footer */
