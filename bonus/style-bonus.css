@@ -1,0 +1,233 @@
+:root{
+    --boolando-lighter: #ffff;
+    --boolando-back-header: #ff6900;
+    --boolando-cards: #e8e8e8;
+    --boolando-darker: #1a1a1a;
+    --boolando-eco: #008000;
+    --boolando-sale: #ff0000;
+}
+
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+.debug{
+    .back-header{
+        background-color: var(--boolando-back-header);
+    }
+
+    .p-lighter{
+        color: var(--boolando-lighter)
+        
+    }
+
+    .cards{
+        background-color: var(--boolando-cards);
+    }
+
+    .sale {
+        background-color: var(--boolando-sale);
+    }
+
+    .eco{
+        background-color: var(--boolando-eco);
+    }
+
+    .price{
+        color: var(--boolando-sale);
+    }
+
+    .heart{
+        background-color: var(--boolando-lighter);
+     }
+
+     .srl{
+        background-color: var(--boolando-darker);
+    }
+}
+
+.margin{
+    width: 70%;
+    margin: auto;
+}
+
+/* #region header */
+
+
+
+    .d-flex{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    span:nth-of-type(1) {flex-grow: 1.5;}
+    span:nth-of-type(2) {flex-grow: 2;}
+    }
+    .style{
+        text-decoration: none;
+    }
+    .end{
+        display: flex;
+        justify-content: end;
+    }
+
+    .logo{
+    width: 8.5rem;
+    height: 2rem;
+    }
+
+    .p-lighter{
+        padding-right: 0.4rem;
+    }
+/* #endregion header */
+
+/* #region main */
+
+.cards{
+    position: relative;
+    min-width: 20rem;
+    height: 28rem;
+}
+
+.space-card{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.one-webp{
+    background-image: url(../img/1.webp);
+    background-position: center;
+    background-size: cover;
+    &:hover{
+        background-image: url(../img/1b.webp);
+    }
+}
+
+.two-webp{
+    background-image: url(../img/2.webp);
+    background-position: center;
+    background-size: cover;
+    &:hover{
+        background-image: url(../img/2b.webp);
+    } 
+}
+
+.three-webp{
+    background-image: url(../img/3.webp);
+    background-position: center;
+    background-size: cover;
+    &:hover{
+        background-image: url(../img/3b.webp);
+    }
+}
+
+.four-webp{
+    background-image: url(../img/4.webp);
+    background-position: center;
+    background-size: cover;
+    &:hover{
+        background-image: url(../img/4b.webp);
+    }
+}
+
+.five-webp{
+    background-image: url(../img/5.webp);
+    background-position: center;
+    background-size: cover;
+    &:hover{
+        background-image: url(../img/5b.webp);
+    }
+}
+
+.six-webp{
+    background-image: url(../img/6.webp);
+    background-position: center;
+    background-size: cover;
+    &:hover{
+        background-image: url(../img/6b.webp);
+    }
+}
+
+.sale{
+    position: absolute;
+    bottom: 1.9rem;
+    font-size: 0.7rem;
+    padding: 0.2rem 0.4rem;
+ }
+
+ .eco{
+    position: absolute;
+    bottom: 1.9rem;
+    left:2.5rem;
+    font-size: 0.7rem;
+    padding: 0.2rem 0.4rem;
+ }
+
+ .eco-two{
+    position: absolute;
+    left: 0;
+ }
+ 
+ .march{
+    font-size: 0.65rem;
+ }
+
+ .name-outfit{
+    font-size: 0.75rem;
+ }
+ .price{
+    font-size: 0.7rem;
+    margin-top: 0;
+ }
+
+ .discount{
+    font-size: 0.7rem;
+    text-decoration: line-through;
+ }
+ 
+ .under-card{
+    position: absolute;
+    bottom: -2.9rem;
+ }
+
+ .heart{
+    position: absolute;
+    right: 0;
+    top: 0.5rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+        color: red;
+    }
+ }
+ /* #endregion main */
+
+/* #region footer */
+.srl{
+    min-height: 1rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+.boolando-srl{
+    padding: 2rem 0;
+}
+
+.social{
+    display: flex;
+    padding-bottom: 0.5rem;
+}
+
+i{
+    margin: 0 0.2rem;
+}
+/* #endregion footer */
