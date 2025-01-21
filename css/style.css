@@ -21,14 +21,37 @@
         color: var(--boolando-lighter)
         
     }
+
+    .cards{
+        background-color: var(--boolando-cards);
+    }
+
+    .sale {
+        background-color: var(--boolando-sale);
+    }
+
+    .eco{
+        background-color: var(--boolando-eco);
+    }
+
+    .price{
+        color: var(--boolando-sale);
+    }
+
+    .heart{
+        background-color: var(--boolando-lighter);
+     }
 }
 
-/* #header */
-
-    .margin{
+.margin{
     width: 80%;
     margin: auto;
-    }
+    display: flex;
+}
+
+/* #region header */
+
+
 
     .d-flex{
     display: flex;
@@ -53,6 +76,73 @@
     .p-lighter{
         padding-right: 0.4rem;
     }
-/* #header */
+/* #endregion header */
 
-/* #main */
+/* #region main */
+.cards{
+    position: relative;
+    min-width: 20rem;
+    height: 30rem;
+}
+
+.space-card{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.one-webp{
+    background-image: url(../img/1.webp);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.sale{
+    position: absolute;
+    bottom: 1.9rem;
+    font-size: 0.7rem;
+    padding: 0.2rem 0.4rem;
+ }
+
+ .eco{
+    position: absolute;
+    bottom: 1.9rem;
+    left:2.5rem;
+    font-size: 0.7rem;
+    padding: 0.2rem 0.4rem;
+ }
+ 
+ .march{
+    font-size: 0.65rem;
+ }
+
+ .name-outfit{
+    font-size: 0.75rem;
+ }
+ .price{
+    font-size: 0.7rem;
+    margin-top: 0;
+ }
+
+ .discount{
+    font-size: 0.7rem;
+    text-decoration: line-through;
+ }
+ 
+ .under-card{
+    position: absolute;
+    bottom: -2.9rem;
+ }
+
+ .heart{
+    position: absolute;
+    right: 0;
+    top: 0.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
