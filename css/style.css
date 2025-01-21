@@ -41,6 +41,10 @@
     .heart{
         background-color: var(--boolando-lighter);
      }
+
+     .srl{
+        background-color: var(--boolando-darker);
+    }
 }
 
 .margin{
@@ -79,20 +83,57 @@
 /* #endregion header */
 
 /* #region main */
+
 .cards{
     position: relative;
     min-width: 20rem;
-    height: 30rem;
+    height: 28rem;
 }
 
 .space-card{
     display: flex;
     justify-content: space-around;
     margin-top: 3rem;
+    margin-bottom: 5rem;
 }
 
 .one-webp{
     background-image: url(../img/1.webp);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.two-webp{
+    background-image: url(../img/2.webp);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.three-webp{
+    background-image: url(../img/3.webp);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.four-webp{
+    background-image: url(../img/4.webp);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.five-webp{
+    background-image: url(../img/5.webp);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.six-webp{
+    background-image: url(../img/6.webp);
     background-position: center;
     background-size: cover;
     
@@ -111,6 +152,11 @@
     left:2.5rem;
     font-size: 0.7rem;
     padding: 0.2rem 0.4rem;
+ }
+
+ .eco-two{
+    position: absolute;
+    left: 0;
  }
  
  .march{
@@ -139,10 +185,17 @@
     position: absolute;
     right: 0;
     top: 0.5rem;
-    width: 2.5rem;
-    height: 2.5rem;
-    font-size: 2rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    font-size: 1.8rem;
     display: flex;
     justify-content: center;
     align-items: center;
  }
+ /* #endregion main */
+
+/* #region footer */
+.srl{
+    min-height: 2rem;
+}
+/* #endregion footer */
